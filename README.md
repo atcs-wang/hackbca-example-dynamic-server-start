@@ -1,11 +1,10 @@
-# hackathon-example-dynamic-render-with-dummy-data
+# hackathon-example-dynamic-server-start
 
-In this step, we begin to upgrade our static prototype webapp to a server-side-rendered (SSR) one, which serves HTML pages dynamically generated from data - ultimately, data that should be sourced from a database. For now, the pages will be rendered from static JSON files, merely simulating an external database source. 
+In this step, we begin to upgrade our static prototype webapp to a server-side-rendered (SSR) one, which serves HTML pages dynamically generated from data - ultimately, data that should be sourced from a database. 
 
 A MySQL database will be integrated properly in the next example; many other kinds of databases could be utilized instead.
 
 Here, we will use the templating engine Handlebars to render the HTML, but that is also easily swapped out if another is preferred.
-
 
 Note: If you are planning on using a framework like Vue or React, you should use a different setup process, and your architecture will look very different. You should research those setup processes instead if applicable.
 
